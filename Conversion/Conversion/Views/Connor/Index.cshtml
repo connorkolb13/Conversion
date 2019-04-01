@@ -1,0 +1,18 @@
+﻿@model string
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Connor</h2>
+
+
+<div>
+    <form action="SayCent" method="post">
+        <input name="input" type="text" placeholder="inches">
+        <input name="submit" type="submit" />
+    </form>
+    <p>
+        @Model
+    </p>
+</div>
+
