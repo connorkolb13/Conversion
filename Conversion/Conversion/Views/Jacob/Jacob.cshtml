@@ -1,0 +1,17 @@
+﻿@model double
+@{
+    ViewBag.Title = "Jacob";
+}
+
+<h2>Rack Units to Hands</h2>
+
+<div>
+    How many Rack Units?
+    <form action="ConvertNum" method="post">
+        <input name="inputNum" type="number" step="any"/>
+        <input name="submit" type="submit" />
+    </form>
+    <p>
+       That is equal to @Model Hands!
+    </p>
+</div>
