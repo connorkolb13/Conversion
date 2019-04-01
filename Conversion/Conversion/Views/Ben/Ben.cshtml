@@ -1,0 +1,17 @@
+﻿@model double
+
+@{
+    ViewBag.Title = "Ben";
+}
+
+<h2>Ben</h2>
+
+<div>
+    <form action="toFathoms" method="post">
+        <p>Enter the number of football fields: <input name="inputNumberFields" number step="any" /></p>
+        <input name="submit" type="submit" />
+    </form>
+    <p>
+        @Model fathoms
+    </p>
+</div>

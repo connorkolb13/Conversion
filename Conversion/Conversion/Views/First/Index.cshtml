@@ -1,0 +1,19 @@
+﻿@model Double
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Conversion</h2>
+
+<div>
+    <form action="Convert" method="post">
+        <h4>How many Thomases</h4>
+        <input name="inputNum" type="number" step="any"/>
+        <input name="submit" type="submit" />
+    </form>
+    <p>
+        Is equal to
+        @Model
+        Oofs
+    </p>
+</div>
